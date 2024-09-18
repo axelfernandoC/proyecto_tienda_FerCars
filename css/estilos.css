@@ -1,0 +1,171 @@
+/*Estilos para el sitio web*/
+
+
+
+.padre-nav {
+  background-color: #859398;
+  color: #283048;
+
+}
+
+.barra-navegacion {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbarra {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  padding-left: 15px;
+
+}
+
+.contenedor-carrousel {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 500px;
+}
+
+/* Estilos de pagina Vehiculos */
+
+.vehiculos-titulo {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+
+}
+
+.contenido-vehiculos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 5vh;
+}
+
+.tarjetas-autos,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.compra {
+
+  margin-top: 50px;
+  background-color: rgba(7, 7, 7, 0.726);
+  border-color: #283048;
+}
+
+.imagen-auto {
+  height: 100%;
+}
+
+.tarjetas-autos {
+  padding: 1px;
+  margin: 15px;
+  background-color: #859398;
+}
+
+/* tarjeta seleccionada */
+
+.contenedor-seleccionado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-seleccionada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  background-color: #859398;
+
+
+}
+
+/* estilos pagina nosotros */
+
+.contenido-nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5vh;
+
+}
+
+.texto-nosotros {
+
+  padding: 10vh;
+
+}
+
+
+
+/* estilos footer */
+
+.padre-footer {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+.footer-navegacion {
+  display: flex;
+  flex-direction: column;
+  width: 33.33%;
+}
+
+.contenedor-input-f {
+  display: flex;
+  flex-direction: column;
+  width: 33.33%;
+  padding-right: 20vh;
+
+
+}
+
+.api-dolar {
+  display: flex;
+  flex-direction: column;
+  width: 33.33%;
+  padding-right: 20px;
+
+}
+
+
+table {
+  border-radius: 20px solid;
+  width: 100%;
+  padding-right: 20px;
+}
+
+th,
+td {
+  border: 1px solid rgba(7, 7, 7, 0.726);
+  text-align: left;
+  background-color: #859398;
+  ;
+  color: rgba(7, 7, 7, 0.726);
+
+}
